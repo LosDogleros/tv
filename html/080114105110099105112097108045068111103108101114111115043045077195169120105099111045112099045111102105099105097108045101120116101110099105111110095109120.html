@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+  <html lang="es-ES">
+    <head>
+
+<script language="Javascript" type="text/javascript">
+  
+document.oncontextmenu = function(){return false}
+  function disableselect(e){
+    return false
+      }
+        function reEnable(){
+          return true
+            }
+
+document.onselectstart=new Function ("return false")
+  if (window.sidebar){
+    document.onmousedown=disableselect
+      document.onclick=reEnable
+        }
+
+</script>
+
+<script language="Javascript" type="text/javascript">
+
+navegador=navigator.userAgent; 
+
+moviles=["Mobile","iPhone","iPod","BlackBerry","Opera Mini","Sony","MOT","Nokia","samsung","ZTE","LG",];
+detector=0; 
+for (i in moviles) { 
+   
+   compruebo=navegador.indexOf(moviles[i]); 
+   if (compruebo>-1) { 
+      detector=1; 
+      }
+   }
+if (detector==1) { 
+   location.href="https://losdogleros.github.io/android.mx/";
+   }
+
+</script>
+
+<link rel="stylesheet" href="css/estilos2.css">
+	
+<link rel="stylesheet" href="css/barra.css">
+
+<link rel="stylesheet" type="text/css" href="css/boton.css">
+
+<script>
+function openNav() {
+    document.getElementById("sideNavigation").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+ 
+function closeNav() {
+    document.getElementById("sideNavigation").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+
+<link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/social.css">
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="images/logo.ico">
+      <title>
+        Los Dogleros
+      </title>
+
+<link href="css/slide1.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+<script src="js/slide1.js"></script>
+  <script src="js/slide2.js"></script>
+
+
+
+
+
+
+
+
+
+</head>
+  <style>
+
+.background_color{
+    background: -webkit-linear-gradient(black, #122562); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(black, #122562); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(black, #122562); /* For Firefox 3.6 to 15 */
+background: linear-gradient(black, #1e2460); /* Standard syntax */
+cursor: url(../images/cursor.cur), url(images/cursor.cur),wait;
+  }
+
+
+a
+{
+cursor: url(../images/cursora.cur), url(images/cursora.cur),wait;
+}
+
+i
+{
+cursor: url(../images/cursora.cur), url(images/cursora.cur),wait;
+}
+
+button
+{
+cursor: url(../images/cursora.cur), url(images/cursora.cur),wait;
+}
+
+
+.B1
+{
+color: #ffffff;
+font-size: 30px;
+font-family: 'Abel', sans-serif;
+text-align: left;
+height: 30px;
+}
+
+.A1
+{
+color: #ffffff;
+font-size: 110px;
+font-family: 'Permanent Marker', cursive;
+height: 50px;
+}
+
+.A2
+{
+color: #ffffff;
+font-size: 30px;
+font-family: 'Concert One', cursive;
+}
+
+.A3
+{
+color: #ffffff;
+font-size: 50px;
+font-family: 'Concert One', cursive;
+}
+
+.header
+{
+background-color: #07889b;
+padding: 10px;
+}
+
+.header2
+{
+background-color: #66b9bf;
+padding: 10px;
+}
+
+.boton_solido
+  {
+    text-decoration: none;
+      padding: 10% 20%;
+        font-weight: 600;
+          font-size: 200%;
+            font-family: 'Sansita Swashed', cursive;
+              color: transparent;
+                text-shadow: 0px 0px 0px #000;
+                  border-radius: 50px 50px 50px 50px;
+                    border: 0px solid #ffffff;
+                      background-color: #ffffff;         
+                    }
+                  .boton_solido:hover
+                {
+              font-size: 200.5%;
+padding: 10.5% 20.5%;
+            }
+
+.footer
+{
+background-color: #1F2833;
+border-radius: 50px 50px 0px 0px;
+padding: 5px 5px; 
+display: block;
+
+}
+
+.footer2
+{
+background-color: #000000;
+border-radius: 0px 0px 0px 0px;
+padding: 5px 5px; 
+display: block;
+
+}
+
+.foottext
+{
+font-size: 110%;
+font-family: 'Staatliches', cursive;
+text-decoration: none;
+color: #ffffff;
+
+}
+
+hr
+{
+color: #ffffff;
+width: 70%;
+}
+
+.not
+{
+border-radius: 0px 20px 0px 20px;
+box-shadow: 2px 2px 5px #999;
+}
+
+.h2
+{
+color: #1a1a1a;
+}
+
+
+
+.h1
+{
+height: 30px;
+widht: 100%;
+border: #1a1a1a; 
+
+color: #ffffff;
+font-size: 23px;
+text-align: center;
+}
+
+.yutu
+{
+float: right;
+width: 800px;
+border: solid 1px transparent;
+background-color: #ffffff;
+text-align: center;
+font-size: 30px;
+color: #000000;
+border-radius: 20px 20px 20px 20px;
+}
+
+.divide
+{
+color: transparent;
+}
+
+.yutu2
+{
+float: left;
+width: 400px;
+border: solid 1px transparent;
+background-color: purple;
+text-align: center;
+font-size: 30px;
+color: #ffffff;
+border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+.ups
+{
+font-size: 100%;
+font-family: 'Staatliches', cursive;
+text-decoration: none;
+color: #ffffff;
+}
+
+.redon
+{
+border-radius: 1px 1px 1px 1px;
+}
+
+.flot1
+{
+float: right;
+}
+
+
+</style>
+
+<body class="background_color">
+
+<p id="inicio">
+</p>
+
+<div class="social">
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100014386295829" target="_blank" class="icon-facebook"><img src="images/social/1.png" width="30px"></a></li>
+			<li><a href="https://twitter.com/LosDogleros" target="_blank" class="icon-twitter"><img src="images/social/2.png" width="30px"></a></li>
+			<li><a href="https://www.instagram.com/los_dogleros/" target="_blank" class="icon-googleplus"><img src="images/social/3.png" width="30px"></a></li>
+			<li><a href="https://www.youtube.com/channel/UC4xgt4zmgfivgU7M-q2updQ/featured" target="_blank" class="icon-pinterest"><img src="images/social/4.png" width="30px"></a></li>
+			<li><a href="https://www.pinterest.com.mx/losdogleros" target="_blank" class="icon-mail"><img src="images/social/5.png" width="30px"></a></li>
+		</ul>
+	</div>
+
+
+
+
+  <div class="loader"></div>
+<canvas id="bg-canvas"></canvas>
+<div class="slider">
+  <canvas id="in-canvas"></canvas>
+  <div class="container">
+    <div class="slide">
+      <div class="bg">
+        <img src="images/slider/1.jpg">
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg">
+        <img src="images/slider/2.jpg">
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg">
+        <img src="images/slider/3.jpg">
+      </div>
+    </div>
+    <div class="slide">
+      <div class="bg">
+        <img src="images/slider/4.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="prev">
+      <</div>
+        <ul class="cont-list">
+          <li class="active"><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+          <li><span></span></li>
+        </ul>
+        <div class="next">></div>
+    </div>
+  </div>
+
+<script src="js/slide3.js"></script>
+  <script src="js/slide4.js"></script>
+    <script id="rendered-js" src="js/slide5.js"></script>
+
+
+<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+
+<br/>
+<br/>
+<br/>
+
+<table class="yutu">
+  <tr>
+    <td>
+      El Yutu.dog
+    </td>
+  </tr>
+<table>
+
+&nbsp
+&nbsp
+&nbsp
+
+<br />
+<br />
+<br />
+    
+<center>
+<div class="flot1">
+<video controls width="800" src="videos/intro.mp4" autoplay=1 muted poster="images/papel.jpg"></video>
+</div>
+</center>
+
+<br/>
+  <br/>
+    <br/>
+
+<center>
+
+<table border="0">
+<tr>
+<td>
+
+<div>
+
+<div class="sep"> <a href="html/donaciones/donaciones.html" class="btn btn-sm animated-button sandy-one">Doname</a> </div>
+
+<div class="sep"> <a href="https://www.youtube.com/channel/UC4xgt4zmgfivgU7M-q2updQ" class="btn btn-sm animated-button sandy-two">Suscribete</a> </div>
+
+<div class="sep"> <a href="html/agradecimientos/agradecimientos.html" class="btn btn-sm animated-button sandy-three">Agradecimientos</a> </div>
+
+</div>
+
+</td>
+</tr>
+</table>
+
+</center>
+
+
+<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+
+<br/>
+<br/>
+<br/>
+
+<table class="divide" border="0">
+  <tr>
+    <td>
+      _
+    </td>
+  </tr>
+</table>
+
+<p class="B1">
+ &nbsp; &nbsp; &nbsp; Categorias
+</p>
+
+<br/>
+
+
+<div class="peliculas-recomendadas contenedor">
+			
+
+<div class="contenedor-titulo-controles">
+				
+
+<div class="indicadores">
+
+</div>
+			
+</div>
+
+			
+
+
+
+<div class="contenedor-principal">
+				
+<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				
+
+<div class="contenedor-carousel">
+					
+<div class="carousel">
+						
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/neonvideomx/" target="_top"><img src="images/imagenes-s/0.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/1minutovideomx/" target="_top"><img src="images/imagenes-s/1.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/musicavideomx/" target="_top"><img src="images/imagenes-s/2.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/minecraftvideomx/" target="_top"><img src="images/imagenes-s/3.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/terrariavideomx/" target="_top"><img src="images/imagenes-s/4.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/fallguysvideomx/" target="_top"><img src="images/imagenes-s/5.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/trucosvideomx/" target="_top"><img src="images/imagenes-s/6.jpg" alt=""></a>
+						
+</div>
+
+
+<div class="pelicula">
+							
+<a href="https://losdogleros.github.io/randomvideomx/" target="_top"><img src="images/imagenes-s/7.jpg" alt=""></a>
+						
+</div>
+
+
+	<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+
+<br/>
+<br/>
+<br/>
+						
+
+</div>
+					
+</div>
+								
+<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			
+
+</div>
+		
+</div>
+	
+
+</main>
+	
+	
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	
+<script src="js/main2.js"></script>
+
+
+<center>
+<hr />
+  <p class="h1">
+    Noticias
+  </p>
+<hr />
+</center>
+
+<br />
+  <br />
+
+  <center>
+<table>
+  <tr>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+      <td>
+        <img class="not" src="images/noticias/not.jpg" width="290px">
+      </td>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+      <td>
+        <img class="not" src="images/noticias/not1.jpg" width="330px">
+      </td>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+      <td>
+        <img class="not" src="images/noticias/not.jpg" width="290px">
+      </td>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+  </tr>
+</table>
+  </center>
+
+<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+
+
+
+
+
+
+
+
+
+
+
+
+  <center>
+<hr />
+  <p class="h1">
+    Gameplays
+  </p>
+<hr />
+  </center>
+
+<br />
+  <br />
+
+  <center>
+<table>
+  <tr>
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+      <td>
+        <a href="https://losdogleros.github.io/terrariavideomx/html/1/video.html"> <img class="not" src="images/games/1.jpg" width="350px"> </a>
+      </td>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+      <td>
+        <a href="https://losdogleros.github.io/minecraftvideomx/html/1/video.html"><img class="not" src="images/games/2.jpg" width="350px"> </a>
+      </td>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+
+      <td>
+        <a href="https://losdogleros.github.io/neonvideomx/html/1/video.html"><img class="not" src="images/games/3.jpg" width="350px"> </a>
+      </td>
+
+    <td>
+      <img src="images/noticias/not0.png" width="50px">
+    </td>
+  </tr>
+</table>
+  </center>
+
+<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+<br />
+  <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="foottext" href="#inicio">
+<footer class="footer">
+
+<center>
+Subir al inicio
+</center>
+
+</footer>
+</a>
+
+<footer class="footer2">
+
+
+<p class="ups">
+<a href="mailto:inncreat@hotmail.com?Subject=Deseo%20reportar%20un%20error%20en%20la%20paguina%20g752tfh8%20ERROR:">Reportanos un Error</a>
+</p>
+
+<br />
+
+<br />
+
+<br />
+
+</footer>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

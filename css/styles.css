@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.A1
+  {
+    font-family: 'Caveat', cursive; 
+      font-size: 70px;
+        color: #ffffff;
+          border: solid px #000000;
+            text-shadow: 1px 1px 1px #000000;
+              text-decoration: none; 
+                text-align: center;
+                  -webkit-text-stroke: 2px #000000;
+                    <!--width: 100px;-->
+                      <!--height: 100px;-->
+                    }
+
+.A2
+  {
+    font-family: 'Caveat', cursive;
+      font-size: 85px;
+        color: #ffffff;
+          border: solid px #000000;
+            text-shadow: 0px 0px 0px #000000;
+              text-decoration: none; 
+                text-align: center;
+                  -webkit-text-stroke: 2px #000000;
+                    <!--width: 100px;-->
+                      <!--height: 100px;-->
+                    }
+
+.body {
+background: -webkit-linear-gradient(black, #122562); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(black, #122562); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(black, #122562); /* For Firefox 3.6 to 15 */
+background: linear-gradient(black, #1e2460); /* Standard syntax */
+cursor: none;
+}
+
+a
+{
+cursor: none;
+}
+
+html
+{
+cursor: none;
+}
+
